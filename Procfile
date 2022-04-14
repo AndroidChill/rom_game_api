@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn rom_game_api.wsgi --log-file -
